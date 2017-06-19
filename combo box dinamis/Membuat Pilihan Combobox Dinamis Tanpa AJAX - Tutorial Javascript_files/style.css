@@ -1,0 +1,96 @@
+/*  
+Theme Name: Big Blue
+Theme URI: http://www.blogohblog.com/
+Description: Big Blue is a 3 columns Wordpress theme. I love to hear of my work being used :). This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-Share Alike 3.0 License</a>. This means you may use it for any purpose, and make any changes you like. Just leave my Bob link under your footer :)
+Version: 0.1
+Author: Bob 
+Author URI: http://www.blogohblog.com/
+
+This theme was designed and built by Bob of <a href="http://www.blogohblog.com/">Blog Oh Blog</a> based on the famous <a href="http://binarybonsai.com/kubrick/">Kubrick</a>.
+*/
+
+body{font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; font-size:12px;background-color:#fff;
+/*background-image:url(images/topbck.gif); */background-repeat:repeat-x;color:#666;margin:0;padding:0;}
+#ads2 {
+	width: 125px;
+	height: 125px;
+	float: left;
+	border: 1px solid #000000;
+	padding: 3px;
+}
+
+blockquote {
+font-style: italic;
+}
+#wrap{width:990px;margin:0 auto;padding:0;}
+#iklan a{color:#ffffff; border:1px;}
+#iklan img{border:1px #ffffff;}
+#top{height:110px;width:988px;clear:both;margin:0 auto;padding:0;}
+h2,h3{font-family: "Lucida Sans Unicode", Verdana; font-size:16px;margin:0;padding:0;text-align:left;}
+#main{width:990px; margin:1px auto;padding:0;}
+#header{width:980px;height:80px;float:left;margin:0;padding:0;}
+#header h1.blogtitle{font-size:18px; font-family: "Lucida Sans Unicode", n"Lucida Grande", Helvetica, sans-serif;color:#fff;margin:0;padding:10px 0 0;}
+#header p.desc{font-family:"Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;color:#fff;font-size:11px;margin:0;padding:0;}
+#nav{height:5px;float:right;width:1px;margin:0;padding:0;}
+ul.nav{height:90px;line-height:69px;float:right;list-style:none;font-size:11px;text-transform:uppercase;margin:0;padding:0;}
+ul.nav li{float:left !important;list-style-type:none;margin:0;padding:0;}
+ul.nav li a,ul.nav li a:link,ul.nav li a:visited{background:#356aa0;color:#fff;float:left;display:block;text-decoration:none;padding:0 10px;}
+ul.nav li a:hover,ul.nav li a:active{background:#000000;color:#ffffff;text-decoration:none;}
+ul.nav li.current_page_item a{text-decoration:none;background:#ffffff;color:#000;}
+ul.nav li ul{float:left;margin:0;padding:0;}
+#content{width:510px;float:left;margin-top: -10px; margin:0;padding:0px 0 0;line-height:17px;}
+.entry{font-size:11px;float:left;width:500px;text-align:justify;margin:0;padding:0 0 10px;}
+#sidebar{float:right;width:470px;margin:0;padding:0px 0 0;}
+.rsidebar{float:right;width:230px;margin:0;padding:0; overflow:hidden;}
+.allsidebar{float:left;width:470px;margin:0;padding:0;text-align:center;}
+.allsidebar p{text-align:center;}
+
+.iklanku{background: #ff6600;float:left;width:470px;margin:0;padding:0;text-align:center;border:1px solid #000000;}
+.iklanku p{text-align:center; color: #ffffff; font-size:11px;}
+.iklanku a{color: #ffffff;}
+
+
+.rsidebar h2{background:url(images/h2c.gif) no-repeat;height:22px;font-size:13px;font-weight:700;color:#6995c2;margin:0;padding:0 0 10px 8px;}
+.postmetadata{background:#eee;border-bottom:1px #ccc solid;border-top:1px #eee solid;font-size:10px;margin:0;padding:5px;}
+.boxcomments{border-top:5px solid #ddd;border-bottom:5px solid #ddd;margin-bottom:20px;width:510px;}
+#commentform{border-top:1px solid #eee;margin:0;padding:15px 15px 1px;}
+#commentform label{display:block;margin:0;}
+#commentform input{width:170px;margin:0 5px 10px 0;padding:1px;}
+#commentform textarea{width:400px;margin:0 0 10px;padding:0;}
+#commentform #submit{margin:0 0 20px;}
+#commentform p{margin:5px 0;}
+ol.commentlist{margin:0 0 1px;padding:0;}
+ol.commentlist :hover{background:url(images/latestbck.gif) repeat-x;}
+ol.commentlist li{border-top:1px solid #eee;display:block;list-style:none;margin:0;padding:15px 15px 1px;}
+ol.commentlist li :hover{background:none;}
+ol.commentlist li.commenthead{display:block;list-style:none;margin:0;padding:5px 15px;}
+ol.commentlist li.commenthead h2{margin:0;}
+ol.tblist{border-top:1px solid #fff;list-style:none;margin:0 0 1px;padding:15px;}
+ol.tblist li{display:block;list-style:none;background:transparent url(images/c.gif) 0 2px no-repeat;padding-left:15px;margin:0 0 5px;}
+#eof{width:980px;clear:both;height:10px;background:#fff;margin:0px auto;padding:0;}
+.navigation{width:500px;float:left;color:#666;}
+.alignright{float:right;margin-top:10px;}
+.alignleft{float:left;margin-top:10px;}
+#footer{background:url(images/footerbck.gif) repeat-x;height:31px;line-height:31px;clear:both;}
+.footer{width:980px;text-align:left;font-size:11px;margin:0 auto;}
+.lsidebar{float:left;width:230px;margin:0;padding:0;text-align:left;}
+.lsidebar h2{background:url(images/h2c.gif) no-repeat;height:22px;font-size:13px;font-weight:700;color:#6995c2;margin:0;padding:0 0 10px 8px;}
+a:link,a:active,a:visited,a:hover{text-decoration:none;color:#0000FF;border:0px;}
+#header h1 a:link,#header h1 a:active,#header h1 a:visited,#header h1 a:hover{text-decoration:none;color:#fff;border:none;}
+.rsidebar ul,.lsidebar ul{list-style-type:none;line-height:200%;font-size:11px;margin:0 auto;padding:0;}
+.rsidebar ul li,.lsidebar ul li{list-style-type:none;margin:0 0 20px;padding:0;}
+.rsidebar ul li ul,.lsidebar ul li ul{list-style-type:square;margin:0 auto;padding:0 3px;}
+.rsidebar ul li ul li,.lsidebar ul li ul li{list-style-type:none;border:0;border-bottom:#dadada solid 1px;margin:0 auto;padding:0;}
+.rsidebar ul li ul li ul.children li,.lsidebar ul li ul li ul.children li{list-style-type:none;border:0;margin:0 auto;padding:0;}
+.rsidebar ul li ul li a,.lsidebar ul li ul li a{text-decoration:none;}dding:0;}
+.rsidebar ul li ul li a,.lsidebar ul li ul li a{text-decoration:none;}ul li a,.lsidebar ul li ul li a{text-decoration:none;}
+
+.twtr-tweet-text {
+    text-align: justify;
+    font-size: 11px;
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    }
+
+.twtr-tweet-wrap {
+    line-height:50px;
+    }
